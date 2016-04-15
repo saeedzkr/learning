@@ -5,6 +5,8 @@ package org.learning.web.bean;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import java.io.Serializable;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 /**
  * Created by sector7 on 4/15/16.
@@ -15,11 +17,30 @@ public class loginBean implements Serializable {
 
     private String username;
     private String password;
+    private HashMap<String , String> cmblang;
 
 
-    public loginBean() {
+
+    public loginBean()
+    {
 
         System.out.println("helooo");
+        setcmbLang();
+    }
+
+    public HashMap<String, String> getCmblang() {
+        System.out.println(cmblang.size());
+        return cmblang;
+    }
+
+    public void setCmblang(HashMap<String, String> cmblang) {
+        this.cmblang = cmblang;
+    }
+
+    private void setcmbLang() {
+        cmblang = new LinkedHashMap<>();
+        cmblang.put("FA" , "1");
+        cmblang.put("EN" , "2");
     }
 
     public String getUsername() {
