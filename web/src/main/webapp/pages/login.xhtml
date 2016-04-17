@@ -25,7 +25,11 @@
                 <f:selectItems value="#{loginBean.cmblang}"/>
             </h:selectOneMenu>
 
-            <h:commandButton action="#{loginBean.validate}" value="ورود"/>
+            <h:commandButton action="#{loginBean.validate}" value="ورود">
+                <f:ajax execute="@form" render="lblresult"/>
+            </h:commandButton>
+
+            <h:outputLabel id="lblresult" value="#{loginBean.password}"/>
         </h:panelGrid>
 
 
