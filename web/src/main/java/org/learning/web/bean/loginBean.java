@@ -46,6 +46,7 @@ public class loginBean implements Serializable {
     public String getUsername() {
         System.out.println("helooo2");
         return username;
+
     }
 
     public void setUsername(String username) {
