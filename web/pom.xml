@@ -47,8 +47,13 @@
         </repository>
     </repositories>
     <dependencies>
+        <dependency>
+            <groupId>LEARNING</groupId>
+            <artifactId>LEARNING-MODEL</artifactId>
+            <version>0.0.1</version>
+        </dependency>
         <!--<dependency>-->
-            <!--<groupId></groupId>-->
+        <!--<groupId></groupId>-->
             <!--<artifactId>TAMIN-Service</artifactId>-->
             <!--<version>0.0.1</version>-->
         <!--</dependency>-->
