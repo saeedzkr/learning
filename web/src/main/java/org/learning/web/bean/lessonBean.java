@@ -17,8 +17,7 @@ public class lessonBean implements Serializable {
     private List<Lesson> lessons;
 
 
-    public List<Lesson> getLessons()
-    {
+    public List<Lesson> getLessons() {
         LessonDAOImpl dao = new LessonDAOImpl();
         return dao.listLearning();
     }
@@ -28,5 +27,8 @@ public class lessonBean implements Serializable {
     }
 
 
+    public void validate(long id) {
+        System.out.println("-------------" + id);
+    }
 
 }
