@@ -66,7 +66,7 @@ public class loginBean implements Serializable {
         this.password = password;
     }
 
-    public void execute(ActionEvent event)
+    public void execute(ActionEvent event )
     {
         System.out.println("==========================");
         System.out.println("v alidate");

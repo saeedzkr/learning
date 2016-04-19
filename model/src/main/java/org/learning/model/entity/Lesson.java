@@ -1,5 +1,8 @@
 package org.learning.model.entity;
 
+import javax.faces.context.FacesContext;
+import javax.faces.event.ActionEvent;
+import javax.faces.view.facelets.FaceletContext;
 import java.io.Serializable;
 
 /**
@@ -8,7 +11,7 @@ import java.io.Serializable;
 public class Lesson implements Serializable {
 
     private Long id;
-    private String Name;
+    private String name;
     private String description;
     private String creator;
     private long isRead;
@@ -16,7 +19,7 @@ public class Lesson implements Serializable {
 
     public Lesson(Long id, String name, String description, String creator, long isRead) {
         this.id = id;
-        Name = name;
+        this.name = name;
         this.description = description;
         this.creator = creator;
         this.isRead = isRead;
@@ -31,11 +34,11 @@ public class Lesson implements Serializable {
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        name = name;
     }
 
     public String getDescription() {
@@ -60,5 +63,11 @@ public class Lesson implements Serializable {
 
     public void setIsRead(long isRead) {
         this.isRead = isRead;
+    }
+
+
+    public void validate(long id)
+    {
+        System.out.println(id);
     }
 }
