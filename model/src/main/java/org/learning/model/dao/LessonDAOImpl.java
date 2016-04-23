@@ -1,6 +1,6 @@
 package org.learning.model.dao;
 
-import org.learning.model.entity.Learning;
+
 import org.learning.model.entity.Lesson;
 
 import java.util.ArrayList;

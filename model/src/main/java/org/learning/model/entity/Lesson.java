@@ -66,8 +66,5 @@ public class Lesson implements Serializable {
     }
 
 
-    public void validate(long id)
-    {
-        System.out.println(id);
-    }
+
 }

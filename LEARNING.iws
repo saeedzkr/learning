@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b555c2c-0e25-47e4-8e65-c58086b953fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/Messages_en.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/Messages_fa.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change type="DELETED" beforePath="D:\crusader\projects\git project\learning\web\src\main\resources\MessageResource" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LEARNING.ipr" afterPath="$PROJECT_DIR$/LEARNING.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LEARNING.iws" afterPath="$PROJECT_DIR$/LEARNING.iws" />
+      <change type="DELETED" beforePath="D:\crusader\projects\git project\learning\model\src\main\java\org\learning\model\dao\learningDAOImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\crusader\projects\git project\learning\model\src\main\java\org\learning\model\entity\learning.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/LEARNING-MODEL.iml" afterPath="$PROJECT_DIR$/model/LEARNING-MODEL.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/LEARNING-Service.iml" afterPath="$PROJECT_DIR$/service/LEARNING-Service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LEARNING.iml" afterPath="$PROJECT_DIR$/LEARNING.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/LEARNING_WEB_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/LEARNING_WEB_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/org/learning/model/entity/Lesson.java" afterPath="$PROJECT_DIR$/model/src/main/java/org/learning/model/entity/Lesson.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/main/java/org/learning/model/dao/LessonDAOImpl.java" afterPath="$PROJECT_DIR$/model/src/main/java/org/learning/model/dao/LessonDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/lessonBean.java" afterPath="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/lessonBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/loginBean.java" afterPath="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/loginBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/pages/main.xhtml" afterPath="$PROJECT_DIR$/web/src/main/webapp/pages/main.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LEARNING.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -197,8 +198,8 @@
       <file leaf-file-name="faces-config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/faces-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5862069" vertical-offset="0" max-vertical-offset="377">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.31564987" vertical-offset="0" max-vertical-offset="377">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -887,12 +888,12 @@
       <workItem from="1461076696820" duration="2888000" />
       <workItem from="1461394774862" duration="788000" />
       <workItem from="1461395879561" duration="3464000" />
-      <workItem from="1461399470804" duration="920000" />
+      <workItem from="1461399470804" duration="924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24595000" />
+    <option name="totallyTimeSpent" value="24599000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1246,13 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/org/learning/model/dao/LearningDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36468646" vertical-offset="0" max-vertical-offset="606">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/LEARNING-WEB.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62057334" vertical-offset="907" max-vertical-offset="6766">
@@ -1271,13 +1265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28052804" vertical-offset="0" max-vertical-offset="629">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/org/learning/model/entity/Learning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42079207" vertical-offset="0" max-vertical-offset="884">
-          <caret line="15" column="0" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1393,8 +1380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/faces-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5862069" vertical-offset="0" max-vertical-offset="377">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.31564987" vertical-offset="0" max-vertical-offset="377">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding />
         </state>
       </provider>
