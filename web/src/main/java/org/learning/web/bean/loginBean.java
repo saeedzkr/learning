@@ -70,18 +70,18 @@ public class loginBean implements Serializable {
         System.out.println("v alidate");
 
         try {
-//            UIViewRoot viewRoot = FacesContext.getCurrentInstance().getViewRoot();
-//            System.out.println("+++++");
-//            if (this.cmblang.equals("fa")) {
-//                System.out.println("+++++1");
-//                viewRoot.setLocale(new Locale("fa"));
-//                System.out.println("+++++22");
-//            }
-//            else {
-//                System.out.println("+++++2");
-//                viewRoot.setLocale(new Locale("en"));
-//                System.out.println("+++++22");
-//            }
+            UIViewRoot viewRoot = FacesContext.getCurrentInstance().getViewRoot();
+            System.out.println("+++++");
+            if (this.cmblang.equals("fa")) {
+                System.out.println("+++++1");
+                viewRoot.setLocale(new Locale("fa"));
+                System.out.println("+++++22");
+            }
+            else {
+                System.out.println("+++++2");
+                viewRoot.setLocale(new Locale("en"));
+                System.out.println("+++++22");
+            }
             System.out.println("+++++1");
             FacesContext.getCurrentInstance().getExternalContext().redirect("main.xhtml");
         } catch (IOException e) {
