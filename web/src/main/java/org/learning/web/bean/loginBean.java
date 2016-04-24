@@ -3,6 +3,7 @@ package org.learning.web.bean;
 
 import com.mysql.fabric.Response;
 
+import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.component.UIViewRoot;
@@ -23,6 +24,7 @@ public class loginBean implements Serializable {
 
     private String username;
     private String password;
+    private String nationalCode;
     private HashMap<String, String> cmblang;
 
 
@@ -65,12 +67,19 @@ public class loginBean implements Serializable {
         this.password = password;
     }
 
+    public String getNationalCode() {
+        return nationalCode;
+    }
+
+    public void setNationalCode(String nationalCode) {
+        this.nationalCode = nationalCode;
+    }
+
     public void execute(ActionEvent event) {
         System.out.println("==========================");
         System.out.println("v alidate");
 
-        try {
-//            UIViewRoot viewRoot = FacesContext.getCurrentInstance().getViewRoot();
+        //            UIViewRoot viewRoot = FacesContext.getCurrentInstance().getViewRoot();
 //            System.out.println("+++++");
 //            if (this.cmblang.equals("fa")) {
 //                System.out.println("+++++1");
@@ -82,11 +91,10 @@ public class loginBean implements Serializable {
 //                viewRoot.setLocale(new Locale("en"));
 //                System.out.println("+++++22");
 //            }
-            System.out.println("+++++1");
-            FacesContext.getCurrentInstance().getExternalContext().redirect("main.xhtml");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        System.out.println("+++++1");
+        FacesMessage facesMessage = new FacesMessage(FacesMessage.SEVERITY_ERROR ,"Error" ,"sdasdadsads");
+        FacesContext.getCurrentInstance().addMessage("national" , facesMessage);
+        //FacesContext.getCurrentInstance().getExternalContext().redirect("main.xhtml");
 
 
     }
