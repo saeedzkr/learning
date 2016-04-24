@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b555c2c-0e25-47e4-8e65-c58086b953fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LEARNING.iml" afterPath="$PROJECT_DIR$/LEARNING.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LEARNING.iws" afterPath="$PROJECT_DIR$/LEARNING.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/loginBean.java" afterPath="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/loginBean.java" />
     </list>
     <ignored path="LEARNING.iws" />
@@ -201,7 +199,7 @@
         <entry file="file://$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/lessonBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="782">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -220,8 +218,8 @@
       <file leaf-file-name="loginBean.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/loginBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6594324" vertical-offset="829" max-vertical-offset="1462">
-              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.57429045" vertical-offset="778" max-vertical-offset="1462">
+              <caret line="83" column="15" selection-start-line="72" selection-start-column="14" selection-end-line="83" selection-end-column="15" />
               <folding>
                 <element signature="e#1319#1320#0" expanded="true" />
                 <element signature="e#1350#1351#0" expanded="true" />
@@ -965,7 +963,7 @@
       <workItem from="1461394774862" duration="788000" />
       <workItem from="1461395879561" duration="3464000" />
       <workItem from="1461399470804" duration="2957000" />
-      <workItem from="1461475509433" duration="226000" />
+      <workItem from="1461475509433" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="sss">
       <created>1461420822804</created>
@@ -977,7 +975,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26858000" />
+    <option name="totallyTimeSpent" value="26973000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1527,14 +1525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/lessonBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="782">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/pages/login.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.615385" vertical-offset="149" max-vertical-offset="748">
@@ -1551,10 +1541,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/lessonBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="782">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/loginBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6594324" vertical-offset="829" max-vertical-offset="1462">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.57429045" vertical-offset="778" max-vertical-offset="1462">
+          <caret line="83" column="15" selection-start-line="72" selection-start-column="14" selection-end-line="83" selection-end-column="15" />
           <folding>
             <element signature="e#1319#1320#0" expanded="true" />
             <element signature="e#1350#1351#0" expanded="true" />
