@@ -30,7 +30,7 @@ public class lessonBean implements Serializable {
     }
 
 
-<<<<<<< HEAD
+
     public String getEmail() {
         return email;
     }
@@ -47,14 +47,10 @@ public class lessonBean implements Serializable {
         this.confirmEmail = confirmEmail;
     }
 
-    public void validateEmail(ActionEvent event)
+    public void validate(long id)
     {
-=======
-    public void validate(long id) {
-        System.out.println("-------------" + id);
-    }
->>>>>>> e598ee85cf27c0e70d29eb6277a9e52ab26475b3
 
+        System.out.println(id);
 
 
     }

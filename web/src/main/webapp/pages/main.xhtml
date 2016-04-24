@@ -9,43 +9,41 @@
 <h:head>
 
 </h:head>
-<h:body>
-    <h:form>
-        <h:dataTable value="#{lessonBean.lessons}" var="o"
-                     styleClass="order-table"
-                     headerClass="order-table-header"
-                     rowClasses="order-table-odd-row,order-table-even-row">
-            <h:column>
-                <f:facet name="header">id</f:facet>
-                #{o.id}
-            </h:column>
 
-            <h:column>
-                <f:facet name="header">subject</f:facet>
-                #{o.name}
-            </h:column>
+<h:form>
+    <h:dataTable value="#{lessonBean.lessons}" var="o"
+                 styleClass="order-table"
+                 headerClass="order-table-header"
+                 rowClasses="order-table-odd-row,order-table-even-row">
+        <h:column>
+            <f:facet name="header">id</f:facet>
+            #{o.id}
+        </h:column>
 
-            <h:column>
-                <f:facet name="header">desc</f:facet>
-                #{o.description}
-            </h:column>
-            <h:column>
-                <f:facet name="header">Action</f:facet>
-                <h:commandLink value="Delete"
-                               action="#{lessonBean.validate(o.id)}" />
-            </h:column>
-        </h:dataTable>
+        <h:column>
+            <f:facet name="header">subject</f:facet>
+            #{o.name}
+        </h:column>
 
-<<<<<<< HEAD
+        <h:column>
+            <f:facet name="header">desc</f:facet>
+            #{o.description}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Action</f:facet>
+            <h:commandLink value="Delete"
+                           action="#{lessonBean.validate(o.id)}"/>
+        </h:column>
+
+
     </h:dataTable>
 
     <h:outputFormat value="#{msg.Welcome}">
         <f:param value="#{loginBean.username}"/>
     </h:outputFormat>
-</f:view>
+
+
+</h:form>
+
 </html>
-=======
-    </h:form>
-</h:body>
-</html>
->>>>>>> e598ee85cf27c0e70d29eb6277a9e52ab26475b3
+
