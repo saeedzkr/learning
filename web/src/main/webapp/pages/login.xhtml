@@ -24,13 +24,13 @@
     </h:selectOneMenu>
 
     <h:commandButton id="ss" actionListener="#{loginBean.execute}" value="ورود">
-        <!--<f:ajax execute="@ss" render="lblresult"/>-->
+        <f:ajax execute="@ss" render="tmp"/>
     </h:commandButton>
-
+    <br/>
 
     <h:inputText id="national" value="#{loginBean.nationalCode}" />
     <h:panelGroup id="wrap">
-        <h:messages binding="#{loginBean.component}"  />
+        <h:messages binding="#{loginBean.component}" id="tmp" />
     </h:panelGroup>
 </h:form>
 </html>
