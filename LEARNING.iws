@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b555c2c-0e25-47e4-8e65-c58086b953fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/LEARNING-WEB.iml" afterPath="$PROJECT_DIR$/web/LEARNING-WEB.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LEARNING.ipr" afterPath="$PROJECT_DIR$/LEARNING.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LEARNING.iws" afterPath="$PROJECT_DIR$/LEARNING.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/lessonBean.java" afterPath="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/lessonBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/pages/login.xhtml" afterPath="$PROJECT_DIR$/web/src/main/webapp/pages/login.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/loginBean.java" afterPath="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/loginBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/pages/main.xhtml" afterPath="$PROJECT_DIR$/web/src/main/webapp/pages/main.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
     </list>
     <ignored path="LEARNING.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -191,21 +188,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lessonBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/lessonBean.java">
+      <file leaf-file-name="login.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/pages/login.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="782">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.9615383" vertical-offset="363" max-vertical-offset="714">
+              <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/pages/login.xhtml">
+      <file leaf-file-name="main.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/pages/main.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3076925" vertical-offset="363" max-vertical-offset="714">
-              <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+            <state vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="952">
+              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -214,11 +211,16 @@
       <file leaf-file-name="loginBean.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/loginBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46684352" vertical-offset="1065" max-vertical-offset="1513">
-              <caret line="95" column="62" selection-start-line="95" selection-start-column="54" selection-end-line="95" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.64190984" vertical-offset="1441" max-vertical-offset="2040">
+              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding>
-                <element signature="e#1555#1556#0" expanded="true" />
-                <element signature="e#1590#1591#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1631#1632#0" expanded="true" />
+                <element signature="e#1666#1667#0" expanded="true" />
+                <element signature="e#1814#1815#0" expanded="true" />
+                <element signature="e#1846#1847#0" expanded="true" />
+                <element signature="e#1901#1902#0" expanded="true" />
+                <element signature="e#1943#1944#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -261,11 +263,11 @@
         <option value="$PROJECT_DIR$/web/src/main/resource/messages_fa.properties" />
         <option value="$PROJECT_DIR$/web/src/main/resource/messages_en.properties" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/faces-config.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/lessonBean.java" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/pages/main.xhtml" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/loginBean.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/pages/main.xhtml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/lessonBean.java" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/pages/login.xhtml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/loginBean.java" />
       </list>
     </option>
   </component>
@@ -931,7 +933,7 @@
       <workItem from="1461394774862" duration="788000" />
       <workItem from="1461395879561" duration="3464000" />
       <workItem from="1461399470804" duration="2957000" />
-      <workItem from="1461475509433" duration="10569000" />
+      <workItem from="1461475509433" duration="14293000" />
     </task>
     <task id="LOCAL-00001" summary="sss">
       <created>1461420822804</created>
@@ -943,7 +945,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37201000" />
+    <option name="totallyTimeSpent" value="40925000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -981,7 +983,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.354067" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.354067" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5012285" order="2" side_tool="true" content_ui="tabs" />
@@ -1170,8 +1172,13 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="676" max-vertical-offset="1445">
           <caret line="74" column="53" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
           <folding>
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1223,8 +1230,13 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="676" max-vertical-offset="1445">
           <caret line="74" column="53" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
           <folding>
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1257,8 +1269,13 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1394">
           <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
           <folding>
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1291,8 +1308,13 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1428">
           <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
           <folding>
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1450,34 +1472,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar!/javax/faces/application/FacesMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17770036" vertical-offset="0" max-vertical-offset="2448">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.085141905" vertical-offset="0" max-vertical-offset="599">
           <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/pages/main.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6527051" vertical-offset="204" max-vertical-offset="952">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/lessonBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="782">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1498,21 +1496,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/pages/main.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="952">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar!/javax/faces/application/FacesMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3466899" vertical-offset="600" max-vertical-offset="2448">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/lessonBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76627713" vertical-offset="153" max-vertical-offset="884">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/pages/login.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3076925" vertical-offset="363" max-vertical-offset="714">
-          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+        <state vertical-scroll-proportion="-6.9615383" vertical-offset="363" max-vertical-offset="714">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/org/learning/web/bean/loginBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46684352" vertical-offset="1065" max-vertical-offset="1513">
-          <caret line="95" column="62" selection-start-line="95" selection-start-column="54" selection-end-line="95" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.64190984" vertical-offset="1441" max-vertical-offset="2040">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding>
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1943#1944#0" expanded="true" />
           </folding>
         </state>
       </provider>

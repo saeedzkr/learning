@@ -5,6 +5,7 @@ import org.learning.model.entity.Lesson;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import javax.faces.component.UIComponent;
 import javax.faces.event.ActionEvent;
 import java.io.Serializable;
 import java.util.List;
@@ -15,6 +16,10 @@ import java.util.List;
 @ManagedBean
 @SessionScoped
 public class lessonBean implements Serializable {
+
+
+
+
     private List<Lesson> lessons;
 
     private String email;
@@ -46,6 +51,8 @@ public class lessonBean implements Serializable {
     public void setConfirmEmail(String confirmEmail) {
         this.confirmEmail = confirmEmail;
     }
+
+
 
     public void validate(long id)
     {

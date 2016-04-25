@@ -6,6 +6,7 @@ import com.mysql.fabric.Response;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import javax.faces.component.UIComponent;
 import javax.faces.component.UIViewRoot;
 import javax.faces.context.FacesContext;
 import javax.faces.event.ActionEvent;
@@ -26,7 +27,7 @@ public class loginBean implements Serializable {
     private String password;
     private String nationalCode;
     private HashMap<String, String> cmblang;
-
+    private UIComponent component;
 
     public loginBean() {
 
@@ -71,8 +72,19 @@ public class loginBean implements Serializable {
         return nationalCode;
     }
 
+
+
     public void setNationalCode(String nationalCode) {
         this.nationalCode = nationalCode;
+    }
+
+
+    public UIComponent getComponent() {
+        return component;
+    }
+
+    public void setComponent(UIComponent component) {
+        this.component = component;
     }
 
     public void execute(ActionEvent event) {
@@ -92,12 +104,19 @@ public class loginBean implements Serializable {
 //                System.out.println("+++++22");
 //            }
         System.out.println("+++++1");
-        FacesMessage facesMessage = new FacesMessage(FacesMessage.SEVERITY_ERROR ,"Error" ,"sdasdadsads");
-        FacesContext.getCurrentInstance().addMessage("national" , facesMessage);
+        FacesMessage facesMessage = new FacesMessage(FacesMessage.SEVERITY_ERROR ,"Esssssssrror" ,"sdasdadsads");
+        setFacesMessage(component , facesMessage);
         //FacesContext.getCurrentInstance().getExternalContext().redirect("main.xhtml");
 
+    }
+
+    private void setFacesMessage(UIComponent component , FacesMessage facesMessage)
+    {
+        FacesContext.getCurrentInstance().addMessage(component.getClientId() , facesMessage);
 
     }
+
+
 
 
     
