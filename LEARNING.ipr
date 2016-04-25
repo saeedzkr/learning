@@ -71,6 +71,8 @@
             <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.1.2.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.1.2.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.1.2.RELEASE" />
+            <element id="library" level="project" name="Maven: junit:junit:4.12" />
+            <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
           </element>
         </element>
         <element id="directory" name="META-INF">
@@ -562,6 +564,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/7.0/javaee-web-api-7.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: junit:junit:4.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: log4j:log4j:1.2.17">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/" />
@@ -670,6 +683,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jettison/jettison/1.1/jettison-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.hamcrest:hamcrest-core:1.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.5.Final">

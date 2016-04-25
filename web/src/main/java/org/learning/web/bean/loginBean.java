@@ -2,9 +2,12 @@ package org.learning.web.bean;
 
 
 import com.mysql.fabric.Response;
+import org.junit.Rule;
+import org.junit.Test;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.SessionScoped;
 import javax.faces.component.UIComponent;
 import javax.faces.component.UIViewRoot;
@@ -22,6 +25,8 @@ import java.util.Locale;
 @ManagedBean
 @SessionScoped
 public class loginBean implements Serializable {
+
+
 
     private String username;
     private String password;
@@ -110,8 +115,10 @@ public class loginBean implements Serializable {
 
     }
 
+    @Rule
     private void setFacesMessage(UIComponent component , FacesMessage facesMessage)
     {
+
         FacesContext.getCurrentInstance().addMessage(component.getClientId() , facesMessage);
 
     }
