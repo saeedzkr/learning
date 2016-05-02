@@ -31,7 +31,15 @@ public class UserService {
     public Response responseCredit(@QueryParam("username") String user ,@QueryParam("password") String password) {
         logger.log(Level.INFO , "responseCredit");
         String output = "Prameter1: " + user + "\nParameter2: " + password;
+
+        AbstractMessagingService abst = ServiceFactory.getFactory(RESTServiceFactory.REST_SERVICE_FACTORY);
+        RESTMessagingService rest = (RESTMessagingService) abst.getMessagingService(RESTMessagingService.REST_MESSAGING_SERVICE);
+        rest.insert();
+
         return Response.status(200).entity(output).build();
+
+
+
     }
         //todo ok
 //    @GET
