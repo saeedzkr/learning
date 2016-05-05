@@ -53,21 +53,11 @@
             <artifactId>LEARNING-MODEL</artifactId>
             <version>0.0.1</version>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId></groupId>-->
-            <!--<artifactId>TAMIN-Service</artifactId>-->
-            <!--<version>0.0.1</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>TAMIN</groupId>-->
-            <!--<artifactId>TAMIN-MODEL</artifactId>-->
-            <!--<version>0.0.1</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>TAMIN</groupId>-->
-            <!--<artifactId>TAMIN-JOBS</artifactId>-->
-            <!--<version>0.0.1</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>LEARNING</groupId>
+            <artifactId>LEARNING-Service</artifactId>
+            <version>0.0.1</version>
+        </dependency>
 
         <dependency>
             <groupId>org.primefaces</groupId>
@@ -79,16 +69,7 @@
             <artifactId>commons-fileupload</artifactId>
             <version>1.2.1</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>com.sun.faces</groupId>-->
-            <!--<artifactId>jsf-api</artifactId>-->
-            <!--<version>2.2.10</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.sun.faces</groupId>-->
-            <!--<artifactId>jsf-impl</artifactId>-->
-            <!--<version>2.2.10</version>-->
-        <!--</dependency>-->
+
         <dependency>
             <groupId>org.apache.myfaces.core</groupId>
             <artifactId>myfaces-api</artifactId>

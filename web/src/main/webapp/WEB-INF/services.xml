@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceGroup>
+    <service name="creditService" scope="application" targetNameSpace="http://services.creditService">
+        <description>
+            credit
+        </description>
+        <messageReceivers>
+            <messageReceiver
+                    mep="http://www.w3.org/ns/wsdl/in-only"
+                    class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+            <messageReceiver
+                    mep="http://www.w3.org/ns/wsdl/in-out"
+                    class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">
+            org.learning.services.service.CreditService
+        </parameter>
+    </service>
+</serviceGroup>
+
+        <!--<service name="MavenAxis2WebService" targetNamespace="http://webservice.MavenAxis2WebService/">-->
+        <!--<description>JNLPGenerator service</description>-->
+        <!--<schema schemaNamespace="http://webservice.MavenAxis2WebService/" />-->
+        <!--<parameter name="ServiceClass" locked="false">com.ratra.ws.MavenAxis2WS.MavenAxis2WebService</parameter>-->
+        <!--<operation name="ping">-->
+        <!--<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />-->
+        <!--</operation>-->
+        <!--</service>-->

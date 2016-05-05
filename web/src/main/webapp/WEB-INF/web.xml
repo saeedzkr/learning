@@ -48,55 +48,36 @@
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>*.xhtml</url-pattern>
     </servlet-mapping>
+    <!--<servlet>-->
+    <!--<servlet-name>Jersey RESTful Application</servlet-name>-->
+    <!--<servlet-class>-->
+    <!--com.sun.jersey.spi.container.servlet.ServletContainer-->
+    <!--</servlet-class>-->
+    <!--<init-param>-->
+    <!--<param-name>com.sun.jersey.config.property.packages</param-name>-->
+    <!--<param-value>org.learning.services</param-value>-->
+    <!--</init-param>-->
+    <!--<init-param>-->
+    <!--<param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>-->
+    <!--<param-value>true</param-value>-->
+    <!--</init-param>-->
+    <!--<load-on-startup>1</load-on-startup>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+    <!--<servlet-name>Jersey RESTful Application</servlet-name>-->
+    <!--<url-pattern>/url/*</url-pattern>-->
+    <!--</servlet-mapping>-->
 
-    <context-param>
-        <param-name>primefaces.PRIVATE_CAPTCHA_KEY</param-name>
-        <param-value>6LdmPhQTAAAAAJgIO3I7rWWaBLvlz3ASWsvPbdfn</param-value>
-
-    </context-param>
-    <context-param>
-        <param-name>primefaces.PUBLIC_CAPTCHA_KEY</param-name>
-        <param-value>6LdmPhQTAAAAAJNpnNwy7FBMY22f-9bpgGhgrRv4</param-value>
-    </context-param>
 
     <servlet>
-        <servlet-name>Jersey RESTful Application</servlet-name>
-        <servlet-class>
-            com.sun.jersey.spi.container.servlet.ServletContainer
-        </servlet-class>
-        <init-param>
-            <param-name>com.sun.jersey.config.property.packages</param-name>
-            <param-value>org.tamin.services</param-value>
-        </init-param>
-        <init-param>
-            <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
-            <param-value>true</param-value>
-        </init-param>
+        <servlet-name>AxisServlet</servlet-name>
+        <servlet-class>org.apache.axis2.transport.http.AxisServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Jersey RESTful Application</servlet-name>
-        <url-pattern>/url/*</url-pattern>
+        <servlet-name>AxisServlet</servlet-name>
+        <url-pattern>/services/*</url-pattern>
     </servlet-mapping>
-
-    <!--<servlet>-->
-        <!--<servlet-name>ServiceHanlder</servlet-name>-->
-        <!--<servlet-class>-->
-            <!--org.tamin.services.controller.ServiceHandler-->
-        <!--</servlet-class>-->
-    <!--</servlet>-->
-    <!--<servlet-mapping>-->
-        <!--<servlet-name>ServiceHanlder</servlet-name>-->
-        <!--<url-pattern>/main.do</url-pattern>-->
-    <!--</servlet-mapping>-->
-    <!--<filter>-->
-        <!--<filter-name>SecurityFilter</filter-name>-->
-        <!--<filter-class>org.tamin.web.Controller.SecurityFilter</filter-class>-->
-    <!--</filter>-->
-    <!--<filter-mapping>-->
-        <!--<filter-name>SecurityFilter</filter-name>-->
-        <!--<url-pattern>/pages/*</url-pattern>-->
-    <!--</filter-mapping>-->
     <servlet>
         <servlet-name>Main</servlet-name>
         <servlet-class>org.learning.web.Controller.MainController</servlet-class>

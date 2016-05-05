@@ -5,13 +5,8 @@
     http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
 
     <application>
-        <locale-config>
-            <default-locale>en</default-locale>
-            <supported-locale>fa</supported-locale>
-        </locale-config>
-        <resource-bundle>
-            <base-name>resources</base-name>
-            <var>msg</var>
-        </resource-bundle>
+        <el-resolver>
+            org.springframework.web.jsf.el.SpringBeanFacesELResolver
+        </el-resolver>
     </application>
 </faces-config>

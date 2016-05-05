@@ -6,9 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/model/LEARNING-MODEL.iml" filepath="$PROJECT_DIR$/model/LEARNING-MODEL.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/LEARNING-Service.iml" filepath="$PROJECT_DIR$/service/LEARNING-Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/LEARNING-WEB.iml" filepath="$PROJECT_DIR$/web/LEARNING-WEB.iml" />
-      <module fileurl="file://$PROJECT_DIR$/model/TAMIN-MODEL.iml" filepath="$PROJECT_DIR$/model/TAMIN-MODEL.iml" />
-      <module fileurl="file://$PROJECT_DIR$/service/TAMIN-Service.iml" filepath="$PROJECT_DIR$/service/TAMIN-Service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/learning.iml" filepath="$PROJECT_DIR$/learning.iml" />
     </modules>
   </component>
 </project>
